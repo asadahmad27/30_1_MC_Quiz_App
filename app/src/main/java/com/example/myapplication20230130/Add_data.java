@@ -80,7 +80,7 @@ public class Add_data extends AppCompatActivity {
 
                 Toast toast = new Toast(Add_data.this);
 
-                toast.setText("DATA ADDED!");
+                toast.setText("Data Added!");
                 toast.setDuration(Toast.LENGTH_LONG);
 
                 toast.show();
