@@ -13,11 +13,11 @@ import android.widget.Toast;
 public class Add_data extends AppCompatActivity {
 
     TextView date;
-    RadioButton fr1, fr2, fr3;
-    RadioButton zr1, zr2, zr3;
-    RadioButton ar1, ar2, ar3;
-    RadioButton mr1, mr2, mr3;
-    RadioButton ir1, ir2, ir3;
+    RadioButton fr1, fr2;
+    RadioButton zr1, zr2;
+    RadioButton ar1, ar2;
+    RadioButton mr1, mr2;
+    RadioButton ir1, ir2;
     TextView fr, zr, ar, mr, ir;
     DBHAndler db;
 
@@ -31,23 +31,22 @@ public class Add_data extends AppCompatActivity {
 
         fr1 = findViewById(R.id.radioButton2);
         fr2 = findViewById(R.id.radioButton3);
-        fr3 = findViewById(R.id.radioButton4);
+
 
         zr1 = findViewById(R.id.radioButton5);
         zr2 = findViewById(R.id.radioButton6);
-        zr3 = findViewById(R.id.radioButton7);
+
 
         ar1 = findViewById(R.id.radioButton8);
         ar2 = findViewById(R.id.radioButton9);
-        ar3 = findViewById(R.id.radioButton10);
+
 
         mr1 = findViewById(R.id.radioButton11);
         mr2 = findViewById(R.id.radioButton12);
-        mr3 = findViewById(R.id.radioButton13);
+
 
         ir1 = findViewById(R.id.radioButton14);
         ir2 = findViewById(R.id.radioButton15);
-        ir3 = findViewById(R.id.radioButton16);
 
         fr = findViewById(R.id.editTextTextPersonName);
         zr = findViewById(R.id.editTextTextPersonName3);

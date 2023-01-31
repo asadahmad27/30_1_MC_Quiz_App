@@ -8,7 +8,9 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -66,11 +68,6 @@
                         android:layout_height="wrap_content"
                         android:text="At Home" />
 
-                    <RadioButton
-                        android:id="@+id/radioButton4"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Sorry" />
                 </RadioGroup>
 
                 <TextView
@@ -119,11 +116,6 @@
                         android:layout_height="wrap_content"
                         android:text="At Home" />
 
-                    <RadioButton
-                        android:id="@+id/radioButton7"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Sorry" />
                 </RadioGroup>
 
                 <TextView
@@ -139,9 +131,9 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:ems="10"
-                    android:inputType="textPersonName"
-                     />
+                    android:inputType="textPersonName" />
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -172,11 +164,6 @@
                         android:layout_height="wrap_content"
                         android:text="At Home" />
 
-                    <RadioButton
-                        android:id="@+id/radioButton10"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Sorry" />
                 </RadioGroup>
 
                 <TextView
@@ -192,10 +179,10 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:ems="10"
-                    android:inputType="textPersonName"
-                     />
+                    android:inputType="textPersonName" />
 
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -226,11 +213,6 @@
                         android:layout_height="wrap_content"
                         android:text="At Home" />
 
-                    <RadioButton
-                        android:id="@+id/radioButton13"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Sorry" />
                 </RadioGroup>
 
                 <TextView
@@ -246,10 +228,10 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:ems="10"
-                    android:inputType="textPersonName"
-                     />
+                    android:inputType="textPersonName" />
 
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -280,11 +262,6 @@
                         android:layout_height="wrap_content"
                         android:text="At Home" />
 
-                    <RadioButton
-                        android:id="@+id/radioButton16"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Sorry" />
                 </RadioGroup>
 
                 <TextView
@@ -300,14 +277,13 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:ems="10"
-                    android:inputType="textPersonName"
-                     />
+                    android:inputType="textPersonName" />
 
             </LinearLayout>
 
             <androidx.appcompat.widget.LinearLayoutCompat
                 android:id="@+id/text"
-                android:layout_width="match_parent"
+                android:layout_width="103dp"
                 android:layout_height="42dp"
                 android:layout_marginLeft="250dp"
                 android:textAlignment="textEnd"
