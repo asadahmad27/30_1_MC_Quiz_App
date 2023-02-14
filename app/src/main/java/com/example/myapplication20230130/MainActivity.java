@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         github.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                final String url = "https://github.com/asadahmad27/30_1_MC_Quiz_App/";
+                final String url = "https://github.com/asadahmad27/30_1_MC_Quiz_App/commits/master";
                 Uri webpage = Uri.parse(url);
 
                 Intent intent = new Intent(Intent.ACTION_VIEW, webpage);
